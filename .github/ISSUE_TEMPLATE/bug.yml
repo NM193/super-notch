@@ -1,0 +1,34 @@
+name: Bug report
+description: Something in Super Notch doesn't work as it should.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thanks for helping! Open this from Super Notch's menu bar icon → Report a Bug… and the Details field fills
+        itself in.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: A screenshot or a short recording helps a lot. Drop it here.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen again
+      placeholder: |
+        1.
+        2.
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: textarea
+    id: details
+    attributes:
+      label: Details (added by Super Notch)
+      description: Version, macOS, the Mac, screens, permissions and settings. No song names, windows, notifications or places.
+      render: text

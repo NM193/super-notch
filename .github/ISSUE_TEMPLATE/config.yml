@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report it by email
+    url: https://github.com/NM193/super-notch#report-a-bug
+    about: Rather not use GitHub? Write to supernotch@nemanjamarjanovic.com.
